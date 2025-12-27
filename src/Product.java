@@ -1,4 +1,4 @@
-public class Product {
+public abstract class Product implements Discountable{
     private String name;
     private double price;
     private int quantity;
@@ -15,6 +15,12 @@ public class Product {
         System.out.println("Cena: " + price);
         System.out.println("Pocet kusů: " + quantity);
         System.out.println("Skladem: " + (quantity > 0));
+    }
+
+    public void applyDiscount(double percentage){
+        if (percentage > 0){
+            this.price = this.price - (this.price * percentage/100);
+        }
     }
     //gettery
     public String getName(){
