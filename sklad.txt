@@ -1,0 +1,3 @@
+Herní klávesnice, 1590.9, 70
+Herní myš, 990.9, 50
+Rohlík, 2.5, 100
