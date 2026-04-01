@@ -1,3 +1,5 @@
+package main.model;
+
 public class FoodProduct extends Product {
     private final String expirationDate;
     public FoodProduct(String name, double price, int quantity, String expirationDate) {

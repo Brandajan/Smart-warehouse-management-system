@@ -1,3 +1,7 @@
+package main.service;
+
+import main.model.Product;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.io.BufferedWriter;

@@ -1,3 +1,5 @@
+package main.model;
+
 public abstract class Product implements Discountable{
     private String name;
     private double price;

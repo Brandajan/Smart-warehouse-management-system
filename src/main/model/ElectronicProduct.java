@@ -1,3 +1,5 @@
+package main.model;
+
 public class ElectronicProduct extends Product {
     private final int warrantyPeriod;
     public ElectronicProduct(String name, double price, int quantity, int warrantyPeriod) {

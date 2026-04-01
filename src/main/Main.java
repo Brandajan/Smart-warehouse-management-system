@@ -1,3 +1,10 @@
+package main;
+
+import main.model.ElectronicProduct;
+import main.model.FoodProduct;
+import main.model.Product;
+import main.service.InventorySaver;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.ArrayList;
